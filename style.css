@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&family=Raleway:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #041618;
+}
+
+.container_border{
+    border: 1.8px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 2rem #424141;
+    border-radius: 1.5rem;
+    background-color: #041617;
+}
+
+.location{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.degree_section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree_section span{
+    font-size: 2rem;
+}
+
+.degree_section h2{
+    font-size: 40px;
+}
+
+.temperature .degree_section .temperature_unit{
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
